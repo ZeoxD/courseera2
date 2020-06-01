@@ -1,0 +1,158 @@
+* {
+	box-sizing: border-box;
+}
+
+body 
+{
+	background-color: white;
+}
+
+h1 
+{
+	margin: 100px;
+	text-align: center;
+	font-family: Varela Round;
+	font-weight: bold;
+	font-size: 175%;
+}
+
+section
+{
+	position: relative;
+	padding: 15px;
+	width: 100%;
+}
+
+p {
+	position: relative;
+	clear: right;
+}
+div 
+{
+	position: relative;
+	background-color: #888;
+	border: 3px solid black;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+.sectionA 
+{
+	float: right;
+	width: 100px;
+	padding: 5px;
+	margin: 0px;
+	border-right: 2px !important;
+	border-top: 2px !important;	
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: #d59898;
+	font-family: Varela Round;
+	
+}
+
+.sectionB 
+{
+	float: right;
+	color: white;
+	width: 100px;
+	padding: 5px;
+	margin: 0px;
+	border-right: 2px !important;
+	border-top: 2px !important;	
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: #c14543;
+	font-family: Varela Round;
+	
+}
+
+.sectionC 
+{
+	color: black;
+	float: right;
+	width: 100px;
+	padding: 5px;
+	margin: 0px;
+	border-right: 2px !important;
+	border-top: 2px !important;	
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: #e5d198;
+	font-family: Varela Round;
+	
+}
+
+.content 
+{
+	padding: 5px;
+	border: none;
+	background-color: #888;
+	font-family: Varela Round;
+	color: black;
+	margin: 0px;
+	height: 200px;
+	overflow: auto;
+}
+
+.row 
+{
+	width: 90%;
+}
+
+
+
+@media (min-width: 992px)
+{
+
+.column-lg-4 
+{
+	float: left;
+	width: 33.3%;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+.colmn-md-6 
+{
+	float: left;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.colmn-md-12 
+{
+	float: left;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+
+@media (max-width: 767px)
+{
+
+.colmn-sm-12 
+{
+	float: left;
+	width: 100%;
+}
+
+}
